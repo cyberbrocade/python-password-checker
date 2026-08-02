@@ -1,3 +1,5 @@
+print("Welcome to Password the Password Checker, test and see if a password valid")
+
 def is_valid(password):
     if len(password) < 12:
         print("Password must be at least 12 characters")
